@@ -1,7 +1,3 @@
-//
-// Created by sjwys on 7/28/2024.
-//
-
 #include <mpi.h>
 
 //! main driver function and build target
