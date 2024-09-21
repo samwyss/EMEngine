@@ -16,9 +16,7 @@ int main(int argc, char** argv) {
 	int world_rank;
 	MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
 
-    /// model to be executed
-    //std::unique_ptr<Model> model = std::make_unique<Model>();
-    //model->run();
+
 
     // terminate MPI environment
     MPI_Finalize();
